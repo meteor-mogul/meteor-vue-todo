@@ -5,7 +5,8 @@ import { Meteor } from 'meteor/meteor';
 let Todos = new Mongo.Collection('todos');
 
 if (Meteor.isClient) {
-    let App = Vue.component('app', {
+
+    App = Vue.component('app', {
         template: '#app',
         data() {
             return {
@@ -29,12 +30,4 @@ if (Meteor.isClient) {
         }
     });
 
-    Meteor.startup(() => {
-        new Vue({
-            el: '#wrapper',
-            components: {
-                App
-            }
-        });
-    });
 }

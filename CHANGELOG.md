@@ -1,5 +1,17 @@
 # Changelog for Mogul Meteor To Do App
 
+## [0.0.6] - 2018-01-09
+
+### Added
+
+- Commented code
+
+### Changed
+
+- Mount to an empty node with a render function,
+  see [Why You Should Avoid Vue.js DOM Templates](https://vuejsdevelopers.com/2017/09/17/vue-js-avoid-dom-templates/)
+- Refactored to add main.js file for Vue instance and remove non-component code from meteor-vue-todo.js
+
 ## [0.0.5] - 2018-01-05
 
 ### Changed

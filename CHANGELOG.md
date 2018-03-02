@@ -1,5 +1,10 @@
 # Changelog for Mogul Meteor To Do App
 
+## [0.0.7] - 2018-03-02
+
+- Update to Meteor 1.6.1
+- Use imports and exports instead of globals
+
 ## [0.0.6] - 2018-01-09
 
 ### Added

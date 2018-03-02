@@ -1,12 +1,13 @@
 import { Vue } from 'meteor/meteormogul:vue-dist';
 import { Mongo } from 'meteor/mongo';
 import { Meteor } from 'meteor/meteor';
+import { Tracker } from 'meteor/tracker';
 
 let Todos = new Mongo.Collection('todos');
 
 if (Meteor.isClient) {
 
-    App = Vue.component('app', {
+    export const App = Vue.component('app', {
         template: '#app',
         data() {
             return {
